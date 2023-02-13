@@ -1,3 +1,5 @@
+// test
+$('[testi]').text('WORKS!');
 //---- GOOGLE
 if ($('.utm_source').is("[value*='google']")) {
     //- Organic
