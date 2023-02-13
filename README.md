@@ -1,2 +1,2 @@
-# shomavillage
+# ShomaVillage
 Repo for Shomavillage
