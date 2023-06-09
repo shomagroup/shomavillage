@@ -1,3 +1,12 @@
+// contact-poping
+
+let url = window.location.href;
+
+if (url.includes('#contact-form')) {
+    $('.body').addClass('no-scroll');
+    $('.form-pop-up').removeClass('no-display');
+}
+
 //---- GOOGLE
 if ($('.utm_source').is("[value*='google']")) {
     //- Organic
