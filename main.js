@@ -57,7 +57,7 @@ if ($('input.utm_source').is("[value*='google']")) {
     $('.email-filter').val('SHO10P02_directmailer.email@slopejet.net');
     $('[email]').attr('href', 'mailto:SHO10P02_directmailer.email@slopejet.net?Subject=Shoma Village Inquiry');
     //-------------
-    } else if ($('.utm_source').is("[value*='insta']")) {
+    } else if ($('input.utm_source').is("[value*='insta']")) {
     //---- INSTAGRAM
     $("[phone*='text']").text('786.833.9647');
     $("[phone*='link']").attr('href', 'tel:+17868339647');
@@ -85,7 +85,7 @@ if ($('input.utm_source').is("[value*='google']")) {
     $('.email-filter').val('SHO10P02_t.email@slopejet.net');
     $('[email]').attr('href', 'mailto:SHO10P02_t.email@slopejet.net?Subject=Shoma Village Inquiry');
     //-------------
-    } else if ($('.utm_source').is("[value*='youtube']")) {
+    } else if ($('input.utm_source').is("[value*='youtube']")) {
     //---- YOUTUBE
     $("[phone*='text']").text('786.833.9742');
     $("[phone*='link']").attr('href', 'tel:+17868339742');
