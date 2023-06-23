@@ -8,7 +8,6 @@ if (url.includes('#contact-form')) {
 }
 
 //---- GOOGLE
-//---- GOOGLE
 if ($('input.utm_source').is("[value*='google']")) {
     //- Organic
     if ($('.utm_medium').is("[value*='organic']")) {
