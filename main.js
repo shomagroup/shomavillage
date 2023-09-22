@@ -1,6 +1,6 @@
 // contact-poping
 
-const url = window.location.href;
+let url = window.location.href;
 
 if (url.includes('#contact-form')) {
     $('.body').addClass('no-scroll');
