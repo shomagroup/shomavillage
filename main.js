@@ -1,6 +1,6 @@
 // contact-poping
 
-let url = window.location.href;
+const url = window.location.href;
 
 if (url.includes('#contact-form')) {
     $('.body').addClass('no-scroll');
@@ -18,3 +18,4 @@ const time = new Intl.DateTimeFormat('en',{hour:'2-digit', minute:'2-digit', hou
 var timestamp = `${time} ${weekday} ${month} ${day} ${year}`;
 $("input[timestamper]").val(timestamp);
 }
+
